@@ -15,7 +15,7 @@ header {
 
 #nav_logo {
     font-size: 24px;
-    color: rgb(89, 170, 89);
+    color: #099299;
 }
 
 #nav_list {
@@ -32,7 +32,7 @@ header {
 
 .nav-iten.active a {
     color: rgb(4, 4, 5);
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #099299;
 }
 
 #mobile_menu{
