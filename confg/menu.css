@@ -26,4 +26,37 @@
     padding: 20px;
     background-color: white;
     box-shadow: 0xp 0px 12px 4px rgba(0, 0, 0, 0.095);
+    position: relative;
+    overflow: hidden;
 }
+
+.dish-heart {
+    position: absolute;
+    background-color: #82BBC0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.56rem;
+    color: #00161E;
+    width: 70px;
+    height: 70px;
+    right: -10px;
+    top: -10px;
+    border-radius: 0px 37.5px 0px 42.4px;
+}
+
+.dish-descripton {
+    color: #82BBC0;
+    text-align: justify;
+}
+
+.dish-rate {
+    color: #00161E;
+}
+
+.dish-price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
