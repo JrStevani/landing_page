@@ -60,3 +60,38 @@
     gap: 20px;
 }
 
+@media screen and (max-width: 1170px) {
+    #dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish {
+        width: 80%;
+    }
+
+    .dish-image {
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .dish {
+        width: 700%;
+    }
+
+    .dish-price {
+        display: block;
+    }
+
+    .dish-price > .btn-defaut {
+        width: 100%;
+    }
+
+    #menu .section-subtitle {
+        text-align: center;
+    }
+    
+}
