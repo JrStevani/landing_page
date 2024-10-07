@@ -37,7 +37,7 @@ span{
 
 #phone_button {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
     background-color: white;
     padding: 8px 14px;
@@ -46,7 +46,7 @@ span{
     border-radius: 12px;
 }
 
-#phone_buttons button{
+#phone_button button {
     box-shadow: none;
 }
 
@@ -101,7 +101,7 @@ span{
     }
 
     #phone_button {
-        margin-top: 20px;
+        margin-top: -20px;
     }
     
 }
