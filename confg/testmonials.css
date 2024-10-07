@@ -18,7 +18,7 @@
 }
 
 #testimonials_content {
-    width: 50%;
+    width: 90%;
 }
 
 #foodbacks {
@@ -45,6 +45,8 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+
 
 .feedback-content p {
     display: flex;
