@@ -32,7 +32,7 @@
 
 .dish-heart {
     position: absolute;
-    background-color: #82BBC0;
+    background-color: var(--color3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,7 +46,7 @@
 }
 
 .dish-descripton {
-    color: #82BBC0;
+    color: var(--color3);
     text-align: justify;
 }
 

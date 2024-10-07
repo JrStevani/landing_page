@@ -1,7 +1,7 @@
 @charset "utf8";
 
 footer {
-    background-color: #82BBC0;
+    background-color: var(--color3);
 }
 
 #footer_items {
@@ -23,7 +23,7 @@ footer {
     }
 
     footer {
-        background-color: #82bbc06b;
+        background-color: var(--color3)6b;
     }
     
 }
