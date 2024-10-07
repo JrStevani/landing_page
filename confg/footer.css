@@ -21,4 +21,9 @@ footer {
         flex-direction: column;
         gap: 20px;
     }
+
+    footer {
+        background-color: #82bbc06b;
+    }
+    
 }
