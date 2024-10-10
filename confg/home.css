@@ -18,7 +18,7 @@
 }
 
 span{
-    color: var(--color2);
+    color: var(--cor2);
 }
 
 #description {
@@ -37,7 +37,7 @@ span{
 
 #phone_button {
     display: flex;
-    gap: 6px;
+    gap: 8px;
     align-items: center;
     background-color: white;
     padding: 8px 14px;

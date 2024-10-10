@@ -1,7 +1,7 @@
 @charset "utf8";
 
 footer {
-    background-color: var(--color3);
+    background-color: var(--cor3);
 }
 
 #footer_items {
@@ -16,6 +16,10 @@ footer {
     font-weight: 500;
 }
 
+footer img {
+    border: 0px solid transparent;
+}
+
 @media screen and (max-width: 600px) {
     #footer_items {
         flex-direction: column;
@@ -23,7 +27,7 @@ footer {
     }
 
     footer {
-        background-color: var(--color3)6b;
+        background-color: var(--cor3)6b;
     }
     
 }
