@@ -107,10 +107,6 @@
     .feedback {
         flex-direction: column;
         font-size: 0.8rem;
-        background-color: var(--cor3);
-    }
-
-    #tesimonials_content {
         width: 100%;
     }
 }

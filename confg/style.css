@@ -43,6 +43,10 @@
     box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background-color: #cbfbff;
 }
@@ -103,3 +107,5 @@ section {
   color: var(--cor4);
   font-size: 2.18rem;
 }
+
+

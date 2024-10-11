@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
 
     const sections = $('section');
-    const navItems = $('.nav-item');
+    const navItems = $('.nav-iten');
 
     $(window).on('scroll', function() {
         const header = $('header');
@@ -19,9 +19,9 @@ $(document).ready(function() {
             header.css('box-shadow', '5px 1px 5px rgba(0, 0, 0, 0.1)');
         }
 
-        sections.each(function (i) {
+        sections.each(function(i) {
             const section = $(this);
-            const sectionTop = section.offset().top - 96;
+            const sectionTop = section.offset().top - 97;
             const sectionBotton = sectionTop + section.outerHeight();
 
             if (scroLLPosition >= sectionTop &&  scroLLPosition < sectionBotton) {
@@ -29,8 +29,9 @@ $(document).ready(function() {
                 return false;
             }
         })
+
         navItems.removeClass('active');
-        $(navItems[activeSectionIndex]).add('active');
+        $(navItems[activeSectionIndex]).addClass('active');
     });
 
     ScrollReveal().reveal('#cta', {
@@ -38,5 +39,36 @@ $(document).ready(function() {
         duration: 2000,
         distance: '20%'
     });
+
+    ScrollReveal().reveal('.dish', {
+        origin: 'left',
+        duration: 2000,
+        distance: '20%'
+    });
+    
+    ScrollReveal().reveal('#testimonials_pc', {
+        origin: 'left',
+        duration: 1000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.feedback-1', {
+        origin: 'right',
+        duration: 1000,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.feedback-2', {
+        origin: 'right',
+        duration: 1500,
+        distance: '20%'
+    });
+
+    ScrollReveal().reveal('.feedback-3', {
+        origin: 'right',
+        duration: 2000,
+        distance: '20%'
+    });
+    
     
 });
